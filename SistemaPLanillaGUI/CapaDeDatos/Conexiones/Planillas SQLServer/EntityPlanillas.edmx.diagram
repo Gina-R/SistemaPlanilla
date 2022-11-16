@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="771e19693a254b42841981a9b1641872" Name="Diagram1" ZoomLevel="47">
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Activo" Width="1.5" PointX="5.25" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Aguinaldo" Width="1.5" PointX="12.75" PointY="40.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.ControlVacacione" Width="1.5" PointX="12.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Deduccione" Width="1.5" PointX="9.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.DetalleDeduccione" Width="1.5" PointX="15" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Empleado" Width="1.5" PointX="7.5" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.EstadoVacacione" Width="1.5" PointX="5.25" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.HorasLaborada" Width="1.5" PointX="15.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Incapacidade" Width="1.5" PointX="12.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Liquidacione" Width="1.5" PointX="12.75" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.PeriodoDePLanilla" Width="1.5" PointX="5.25" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Persona" Width="1.5" PointX="0.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Planilla" Width="1.5" PointX="10.5" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.PlanillaDetalle" Width="1.5" PointX="15.75" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Puesto" Width="1.5" PointX="5.25" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Tipo_Multiplicador" Width="1.5" PointX="5.25" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.Tipo_Remuneracion" Width="1.5" PointX="10.5" PointY="43.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.TIpoDeduccione" Width="1.5" PointX="5.25" PointY="46.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.TipoDeResponsabilidad" Width="1.5" PointX="5.25" PointY="50" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.TIpoDeSalida" Width="1.5" PointX="7.5" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.TLDepartamento" Width="1.5" PointX="5.25" PointY="53.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SistemaControlPlanillaModel.TLUsuario" Width="1.5" PointX="3" PointY="36.375" IsExpanded="true" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Activo__UltimoUs__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Activo__UsuarioC__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Deduccion__ID_Ac__3E1D39E1" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Empleado__ID_Act__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Incapacid__ID_Ac__30C33EC3" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Aguinaldo__ID_Em__4D5F7D71" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Aguinaldo__Ultim__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Aguinaldo__Usuar__4E53A1AA" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__ControlVa__ID_Em__282DF8C2" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__ControlVa__ID_Es__29221CFB" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__ControlVa__Ultim__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__ControlVa__Usuar__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Deduccion__ID_Em__3D2915A8" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Deduccion__ID_TI__3F115E1A" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Deduccion__Ultim__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Deduccion__Usuar__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__DetalleDe__ID_De__45BE5BA9" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__DetalleDe__ID_Pe__46B27FE2" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__DetalleDe__Ultim__489AC854" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__DetalleDe__Usuar__47A6A41B" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Empleado__ID_Dep__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Empleado__ID_Per__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Empleado__ID_Pue__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Empleado__Ultimo__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Empleado__Usuari__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__HorasLabo__ID_Em__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Incapacid__ID_Em__2FCF1A8A" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Liquidaci__ID_Em__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__PlanillaD__ID_Em__1AD3FDA4" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__EstadoVac__Ultim__236943A5" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__EstadoVac__Usuar__22751F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__HorasLabo__ID_Pe__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__HorasLabo__ID_Ti__0A9D95DB" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__HorasLabo__Ultim__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__HorasLabo__Usuar__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Incapacid__Ultim__32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Incapacid__Usuar__31B762FC" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Liquidaci__ID_TI__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Liquidaci__Ultim__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Liquidaci__Usuar__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__PeriodoDe__Ultim__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__PeriodoDe__Usuar__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Planilla__ID_Per__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TLUsuario__ID_Pe__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Planilla__Ultimo__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Planilla__Usuari__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__PlanillaD__ID_Pl__1BC821DD" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__PlanillaD__Ultim__1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__PlanillaD__Usuar__1CBC4616" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Puesto__UltimoUs__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Puesto__UsuarioC__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Tipo_Mult__Ultim__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Tipo_Mult__Usuar__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Tipo_Remu__ID_Ti__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Tipo_Remu__Ultim__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__Tipo_Remu__Usuar__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TIpoDeduc__Ultim__3864608B" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TIpoDeduc__Usuar__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TipoDeRes__Ultim__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TipoDeRes__Usuar__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TIpoDeSal__ID_Ti__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TIpoDeSal__Ultim__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TIpoDeSal__Usuar__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TLDeparta__Ultim__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TLDeparta__Usuar__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TLUsuario__Ultim__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="SistemaControlPlanillaModel.FK__TLUsuario__Usuar__2C3393D0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
